@@ -12,7 +12,6 @@ to the specified integer "target"
 from typing import List
 def twoSum(self,nums: List[int], target: int) -> List[int]:
     # YOUR ANSWER
-    #무식하게 한번 쭉 둘러보라고 하면 되지 않을까?
     for i in range(0, len(nums)):
         #i랑 중복 방지
         for j in range(i+1, len(nums)):
