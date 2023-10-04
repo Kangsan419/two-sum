@@ -18,7 +18,3 @@ def twoSum(self,nums: List[int], target: int) -> List[int]:
             #조건문
 	        if nums[i] + nums[j] == target:
 	            return [i, j]
-         
-    
-
-
